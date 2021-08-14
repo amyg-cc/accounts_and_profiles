@@ -11,3 +11,6 @@ class Account:
 
     def remove_profile(self, profile):
         self.profiles.remove(profile)
+
+    def return_profiles(self):
+        return self.profiles
