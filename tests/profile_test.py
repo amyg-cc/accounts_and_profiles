@@ -37,6 +37,6 @@ class TestProfile(unittest.TestCase):
 
     # Test a Profile can return a list of Favourites
 
-    # def test_profile_can_return_favourite_movies(self):
-    #     self.profile_1.add_favourite_movie(self.movie_1)
-    #     self.assertEqual(self.movie_1, self.profile_1.return_favourite_movies())
+    def test_profile_can_return_favourite_movies(self):
+        self.profile_1.add_favourite_movie(self.movie_1)
+        self.assertEqual(1, len(self.profile_1.return_favourite_movies()))

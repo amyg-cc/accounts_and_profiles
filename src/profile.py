@@ -11,5 +11,5 @@ class Profile:
     def remove_favourite_movie(self, movie):
         self.favourite_movies.remove(movie)
 
-    # def return_favourite_movies(self):
-    #     return profile.favourite_movies
+    def return_favourite_movies(self):
+        return self.favourite_movies
